@@ -11,6 +11,11 @@ import pythoncom
 
 app = Flask(__name__)
 
+# Ensure the necessary directories exist
+os.makedirs('uploads', exist_ok=True)
+os.makedirs('Output/Doc', exist_ok=True)
+os.makedirs('Output/Pdf', exist_ok=True)
+
 @app.route('/')
 def index():
     return render_template('index.html')

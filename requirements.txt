@@ -2,5 +2,8 @@
 # Use
 # pip3 install -r requirements.txt
 
+Flask
 python-docx
 docx2pdf
+openpyxl
+pythoncom
