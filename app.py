@@ -7,7 +7,7 @@ from certificate import *
 from docx import Document
 from docx2pdf import convert
 from openpyxl import Workbook, load_workbook
-import pythoncom  # Import pythoncom from pywin32
+import pythoncom
 
 app = Flask(__name__)
 
