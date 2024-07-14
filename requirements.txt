@@ -6,3 +6,4 @@ python-docx
 docx2pdf
 Flask
 openpyxl
+Werkzeug==2.2.2

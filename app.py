@@ -76,6 +76,3 @@ def create_docx_files(template_path, participants, event, ambassador):
 
     zip_buffer.seek(0)
     return zip_buffer
-
-if __name__ == '__main__':
-    app.run(debug=True)
